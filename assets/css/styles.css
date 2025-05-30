@@ -1280,3 +1280,18 @@ img {
   width: fit-content;
   padding: 1rem;
 }
+
+.hobbies__img, .project__img {
+    max-width: 70%; /* Adjust this percentage to control size */
+    max-height: 80vh; /* Limit height to 80% of viewport height */
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    object-fit: contain; /* Preserve aspect ratio */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
